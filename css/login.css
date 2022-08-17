@@ -1,0 +1,83 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.login_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.login_header img {
+    width: 100px;
+}
+
+.login_header h1 {
+    color: #333;
+    font-size: 1.5em;
+}
+
+.login_input {
+    border: 2px solid #333;
+    border-radius: 8px;
+    color: #333;
+    font-size: 1em;
+    margin-bottom: 15px;
+    max-width: 300px;
+    outline: none;
+    padding: 15px;
+    width: 100%;
+}
+
+.login_button{
+    background-color: #ee665c;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    max-width: 300px;
+    padding: 15px;
+    width: 100%;
+}
+
+.login_button:disabled {
+    background-color: #eee;
+    color: #aaa;
+    cursor: auto;
+}
+
+#footer {
+    background-color: #ee665c93;
+
+    bottom: 0;
+    left: 0;
+    height: 30px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+
+#footer h2 , h2 strong{
+    font-family: sans-serif !important;
+    font-weight: 200;
+    font-size: 1em;
+}
+
+#footer a:hover{
+    color: #fff;
+}

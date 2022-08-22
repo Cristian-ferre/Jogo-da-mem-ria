@@ -9,6 +9,19 @@
 
 }
 
+.crisDev {
+    position: absolute;
+    top: -90px;
+    right: 0;
+    width: 100%;
+    width: 250px;
+}
+
+.crisDevLogo {
+    max-width: 50px;
+    width: 100%;
+}
+
 .login_form {
     display: flex;
     flex-direction: column;
@@ -30,6 +43,12 @@
 .login_header h1 {
     color: #111;
     font-size: 2em;
+}
+
+.footerCris {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .login_input {

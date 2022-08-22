@@ -1,4 +1,1 @@
-
-1- ranking
-2- nivel de dificuldade
-4- ...
+<h1>Jogo da memoria<h1/> 

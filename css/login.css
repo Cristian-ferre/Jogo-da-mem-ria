@@ -81,7 +81,7 @@
 }
 
 #footer {
-    background-color: #ccc;
+    background-color: rgba(204, 204, 204, 0.568);
     bottom: 0;
     left: 0;
     height: 30px;
@@ -97,7 +97,6 @@ h2 strong {
     font-family: sans-serif !important;
     font-size: 1em;
     font-weight: 500;
-
 }
 
 #footer a:hover {

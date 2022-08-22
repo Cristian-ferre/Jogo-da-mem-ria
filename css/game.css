@@ -1,10 +1,43 @@
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-size: cover;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 50px;
+    background-image: url(../assets/imgs/bg-mario.jpg);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 1em;
+    width: 100%;
+    max-width: 800px;
+    padding: 30px;
+    margin: 0 0 30px;
+    border-radius: 5px;
+    gap: 20px;
+}
+
+
+.iconHeacer {
+    width: 40px;
+}
+
 .grid {
     width: 100%;
     max-width: 800px;
-    margin: 100px auto;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 15px;
+    margin: 0 auto;
 }
 
 .carta {
@@ -16,6 +49,7 @@
     position: relative;
     transition: all 400ms ease;
     transform-style: preserve-3d;
+    background-color: #ccc;
 }
 
 .face {
@@ -27,6 +61,7 @@
     cursor: help;
     border: 2px solid #39813a;
     border-radius: 5px;
+    transition: all 400ms ease;
 }
 
 .cartaFront {
@@ -35,7 +70,7 @@
 }
 
 .cartaBack {
-    background-image: url(../images/back.png);
+    background-image: url(../assets/imgs/mario.png);
     backface-visibility: hidden;
     /*motro a frente mas escondo a barte de trás back*/
 }
@@ -43,3 +78,9 @@
 .revelar_carta {
     transform: rotatey(180deg);
 }
+
+.disabilitar_carta {
+    filter: saturate(0);
+    opacity: 0.5;
+}
+

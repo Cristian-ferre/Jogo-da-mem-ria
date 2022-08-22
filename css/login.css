@@ -4,6 +4,9 @@
     align-items: center;
     height: 100vh;
     justify-content: center;
+    background-image: url(../assets/imgs/bg-mario.jpg);
+    background-size: cover;
+
 }
 
 .login_form {
@@ -11,6 +14,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
 
 .login_header {
@@ -19,15 +23,13 @@
     flex-direction: column;
     justify-content: center;
     margin-bottom: 50px;
+    text-align: center;
 }
 
-.login_header img {
-    width: 100px;
-}
 
 .login_header h1 {
-    color: #333;
-    font-size: 1.5em;
+    color: #111;
+    font-size: 2em;
 }
 
 .login_input {
@@ -42,8 +44,8 @@
     width: 100%;
 }
 
-.login_button{
-    background-color: #ee665c;
+.login_button {
+    background-color: #b9f818ec;
     border-radius: 8px;
     color: #fff;
     cursor: pointer;
@@ -61,23 +63,24 @@
 
 #footer {
     background-color: #ee665c93;
-
     bottom: 0;
     left: 0;
     height: 30px;
     position: fixed;
     width: 100%;
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-around;
     align-items: center;
 }
 
-#footer h2 , h2 strong{
+#footer h2,
+h2 strong {
     font-family: sans-serif !important;
-    font-weight: 200;
     font-size: 1em;
+    font-weight: 500;
+
 }
 
-#footer a:hover{
+#footer a:hover {
     color: #fff;
 }

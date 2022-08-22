@@ -21,7 +21,7 @@ const personagens = [
     'tres-espias-demais',
     'super-onze',
 ];
-const audio = new Audio('../Super Mario - Som Clássico da moeda.mp3');
+const audio = new Audio('../assets/audio/superMario.mp3');
 
 const grid = document.querySelector(".grid");
 const spanJogador = document.querySelector(".jogador");
